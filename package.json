@@ -1,0 +1,24 @@
+{
+  "name": "@charlesstover/hsl2rgb",
+  "version": "1.0.0",
+  "description": "Convert HSL to RGB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesStover/hsl2rgb-js.git"
+  },
+  "keywords": [
+    "hsl",
+    "rgb",
+    "color"
+  ],
+  "author": "Charles Stover",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharlesStover/hsl2rgb-js/issues"
+  },
+  "homepage": "https://github.com/CharlesStover/hsl2rgb-js#readme"
+}
