@@ -1,0 +1,8 @@
+/node_modules
+.gitignore
+.npmignore
+colors.js
+hsl2rgb.js
+hsl2rgb.spec.js
+package-lock.json
+webpack.config.js

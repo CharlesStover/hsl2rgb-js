@@ -1,10 +1,12 @@
 {
   "name": "@charlesstover/hsl2rgb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert HSL to RGB.",
-  "main": "index.js",
+  "main": "hsl2rgb.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "prepublish": "npm run build",
+    "test": "mocha hsl2rgb.spec.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/CharlesStover/hsl2rgb-js/issues"
   },
-  "homepage": "https://github.com/CharlesStover/hsl2rgb-js#readme"
+  "homepage": "https://github.com/CharlesStover/hsl2rgb-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "babel-loader": "^8.0.0-beta.4",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  }
 }
