@@ -1,6 +1,12 @@
 # hsl2rgb
 Convert HSL to RGB.
 
+![GitHub version](https://img.shields.io/github/package-json/v/CharlesStover/hsl2rgb-js.svg)
+![npm version](https://img.shields.io/npm/v/@charlesstover/hsl2rgb.svg)
+![npm downloads](https://img.shields.io/npm/dt/@charlesstover/hsl2rgb.svg)
+![min](https://img.shields.io/bundlephobia/min/@charlesstover/hsl2rgb.svg)
+![minzip](https://img.shields.io/bundlephobia/minzip/@charlesstover/hsl2rgb.svg)
+
 ## Install
 * `npm install @charlesstover/hsl2rgb`
 * `yarn add @charlesstover/hsl2rgb`
