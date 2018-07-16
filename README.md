@@ -8,7 +8,7 @@ Convert HSL to RGB.
 ![minzip](https://img.shields.io/bundlephobia/minzip/@charlesstover/hsl2rgb.svg)
 
 ## Install
-* `npm install @charlesstover/hsl2rgb`
+* `npm install @charlesstover/hsl2rgb --save` or
 * `yarn add @charlesstover/hsl2rgb`
 
 ## Test
