@@ -2,6 +2,7 @@
 /node_modules
 .gitignore
 .npmignore
+.travis.yml
 colors.js
 hsl2rgb.js
 hsl2rgb.spec.js
