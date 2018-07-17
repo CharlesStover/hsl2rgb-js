@@ -8,7 +8,7 @@ cache:
 install: npm install
 script:
   - npm test
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then npm run build; fi'
+  - npm run build
 deploy:
   api_key:
     secure: aorD7Z0rC2KMKfCzNnGpbxGdEwJfIZ/Q8aT/DyEKUtA31iwuI9oNpuh4rNwT+OE5z4kP08hC6j73wIxKzVNHbtARDdJ/9/pIcDq8/z9G87AcBdxb4LqajUlB8/oLm16u6Izvcylvv9Q2vUSkbRB0L88owMxXvoRbTOjnILmFzka1EBa/vFNtKeDCAzW7uPxJ+6GUuPdnCstaovdJT2c09GpBtOyx28f+y/SAsHrPIS6F2ZRgBDkhoJOPRpBzYde+O5eXsZ9McDORywwATN4tnY1BDJ3om9A3lkcVGZYGDP9q3n6roq6gd06aOgbhAJS92Ej7IRV9pQ0saMAB90ofDGJYvveQ4YsL6ZDVu425wh8pyli117u5qzOMJdNFukRMxTqN85hFDLmgrmgscoBa6EmeGRxzJIEP02mxVwfHNwm7klHrLoTD0fmhYqYvJpZTDlDqIlZkkov2IjXNw5mUtdkEOHODT41z1mtj5Jat3oHE+nsj8CQLFJhhlnjsaXygv3JorCYmbYH01AW49GxxzUIxhA1/As7dHei1Q24wnNsylOQmE4LtfFwQh0LpwDR2WsJyA6MZ4j8PDG45JwlraUF0wcbK6nb0Eq6qVO+jpLs6YpXBdpUyFqWq3KIsN29q1BOzV1bUyYI7p/OooCYpOxepXGLWPN1hwLtDq8mUf7A=
