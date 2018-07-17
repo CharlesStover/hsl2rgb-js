@@ -25,12 +25,12 @@ console.log(b); // 0
 
 const css = (h, s, l) => 'rgb(' + hsl2rgb(h, s, l).map((x) => x * 255).join(', ') + ')';
 
-console.log(css(180, 1, 0.5)); // rgb(0, 255, 0)
+console.log(css(0.5, 1, 0.5)); // rgb(0, 255, 0)
 ```
 
 ## Parameters
 * hue: number
-  The hue, in _degrees_, from 0 to 359.
+  The hue, from 0 to 1.
 
 * saturation: number
   The saturation, from 0 to 1.
