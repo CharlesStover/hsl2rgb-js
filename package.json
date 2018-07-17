@@ -1,28 +1,11 @@
 {
   "name": "@charlesstover/hsl2rgb",
   "version": "1.0.1",
-  "description": "Convert HSL to RGB.",
-  "main": "hsl2rgb.min.js",
-  "scripts": {
-    "build": "webpack",
-    "prepublishOnly": "npm run build",
-    "test": "mocha hsl2rgb.spec.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CharlesStover/hsl2rgb-js.git"
-  },
-  "keywords": [
-    "hsl",
-    "rgb",
-    "color"
-  ],
   "author": "Charles Stover",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/CharlesStover/hsl2rgb-js/issues"
   },
-  "homepage": "https://github.com/CharlesStover/hsl2rgb-js#readme",
+  "description": "Convert HSL to RGB.",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.53",
     "@babel/preset-env": "^7.0.0-beta.53",
@@ -30,5 +13,25 @@
     "mocha": "^5.2.0",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8"
+  },
+  "homepage": "https://github.com/CharlesStover/hsl2rgb-js#readme",
+  "keywords": [
+    "hsl",
+    "rgb",
+    "color"
+  ],
+  "license": "MIT",
+  "main": "hsl2rgb.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesStover/hsl2rgb-js.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "npm run build",
+    "test": "mocha hsl2rgb.spec.js"
   }
 }
