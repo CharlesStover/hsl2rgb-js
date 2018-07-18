@@ -1,12 +1,12 @@
 /*
 Creates an NPM module by converting ES6 to ES5 and minifying.
-hsl2rgb.js -> hsl2rgb.min.js
+src/hsl2rgb.js -> hsl2rgb.js
 */
 
 const path = require('path');
 
 module.exports = {
-  entry: './hsl2rgb.js',
+  entry: './src/hsl2rgb.js',
   mode: 'production',
   module: {
     rules: [
@@ -22,7 +22,7 @@ module.exports = {
     ]
   },
   output: {
-    filename: 'hsl2rgb.min.js',
+    filename: 'hsl2rgb.js',
     library: '@charlesstover/hsl2rgb',
     libraryTarget: 'umd',
     path: path.resolve(__dirname, '.'),

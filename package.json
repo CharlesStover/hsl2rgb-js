@@ -1,6 +1,6 @@
 {
   "name": "@charlesstover/hsl2rgb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Charles Stover",
   "bugs": {
     "url": "https://github.com/CharlesStover/hsl2rgb-js/issues"
@@ -21,7 +21,7 @@
     "color"
   ],
   "license": "MIT",
-  "main": "hsl2rgb.min.js",
+  "main": "hsl2rgb.js",
   "publishConfig": {
     "access": "public"
   },
@@ -32,6 +32,6 @@
   "scripts": {
     "build": "webpack",
     "prepublishOnly": "npm run build",
-    "test": "mocha hsl2rgb.spec.js"
+    "test": "mocha tests/hsl2rgb.spec.js"
   }
 }
