@@ -1,3 +1,2 @@
-/.vscode
 /node_modules
-hsl2rgb.min.js
+/hsl2rgb.js

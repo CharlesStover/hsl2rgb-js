@@ -1,10 +1,8 @@
 /.vscode
 /node_modules
-.gitignore
-.npmignore
-.travis.yml
-colors.js
-hsl2rgb.js
-hsl2rgb.spec.js
-package-lock.json
-webpack.config.js
+/src
+/tests
+/.gitignore
+/.npmignore
+/.travis.yml
+/webpack.config.js

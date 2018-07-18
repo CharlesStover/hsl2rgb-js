@@ -1,5 +1,5 @@
 const colors = require('./colors');
-const hsl2rgb = require('./hsl2rgb');
+const hsl2rgb = require('../hsl2rgb');
 
 // Allow it to be, at most, off by 0.013..., due to JavaScript floating point errors.
 const ERROR_MARGIN = 132 / 9900;
