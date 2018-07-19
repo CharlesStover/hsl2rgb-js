@@ -2,7 +2,7 @@
 Convert HSL to RGB.
 
 ![package](https://img.shields.io/github/package-json/v/CharlesStover/hsl2rgb-js.svg)
-![build](https://travis-ci.com/CharlesStover/react-object-prop.svg?branch=master)
+![build](https://travis-ci.com/CharlesStover/hsl2rgb-js.svg)
 ![downloads](https://img.shields.io/npm/dt/@charlesstover/hsl2rgb.svg)
 ![minified size](https://img.shields.io/bundlephobia/min/@charlesstover/hsl2rgb.svg)
 ![minzipped size](https://img.shields.io/bundlephobia/minzip/@charlesstover/hsl2rgb.svg)
