@@ -1,21 +1,21 @@
 {
   "name": "@charlesstover/hsl2rgb",
-  "version": "1.0.4",
-  "author": "Charles Stover",
+  "version": "1.0.5",
+  "author": "Charles Stover <hsl2rgb@charlesstover.com>",
   "bugs": {
+    "email" : "hsl2rgb@charlesstover.com",
     "url": "https://github.com/CharlesStover/hsl2rgb-js/issues"
   },
   "description": "Convert HSL to RGB.",
-  "devDependencies": {
-    "@babel/core": "^7.0.0-beta.53",
-    "@babel/preset-env": "^7.0.0-beta.53",
-    "babel-loader": "^8.0.0-beta.4",
-    "jsdom": "^11.11.0",
-    "jsdom-global": "^3.0.2",
-    "mocha": "^5.2.0",
-    "webpack": "^4.16.1",
-    "webpack-cli": "^3.0.8"
+  "directories": {
+    "lib": "src",
+    "test": "tests"
   },
+  "files": [
+    "hsl2rgb.d.ts",
+    "hsl2rgb.js",
+    "package.json"
+  ],
   "homepage": "https://github.com/CharlesStover/hsl2rgb-js#readme",
   "keywords": [
     "hsl",
@@ -27,13 +27,22 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CharlesStover/hsl2rgb-js.git"
-  },
+  "repository": "github:CharlesStover/hsl2rgb-js",
   "scripts": {
     "build": "webpack",
     "prepublishOnly": "npm run build",
     "test": "mocha -r jsdom-global/register tests/hsl2rgb.spec.js"
-  }
+  },
+  "types": "./hsl2rgb.d.ts",
+  "dependencies": { },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "babel-loader": "^8.0.0-beta.4",
+    "jsdom": "^11.11.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  },
 }
