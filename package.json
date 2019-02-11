@@ -30,7 +30,7 @@
   "repository": "github:CharlesStover/hsl2rgb-js",
   "scripts": {
     "build": "webpack",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "webpack",
     "test": "mocha -r jsdom-global/register tests/hsl2rgb.spec.js"
   },
   "types": "./hsl2rgb.d.ts",
@@ -44,5 +44,5 @@
     "mocha": "^5.2.0",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8"
-  },
+  }
 }
