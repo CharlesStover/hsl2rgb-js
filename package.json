@@ -39,7 +39,7 @@
     "@babel/core": "^7.0.0-beta.53",
     "@babel/preset-env": "^7.0.0-beta.53",
     "babel-loader": "^8.0.0-beta.4",
-    "jsdom": "^11.11.0",
+    "jsdom": "^15.1.1",
     "jsdom-global": "^3.0.2",
     "mocha": "^5.2.0",
     "webpack": "^4.16.1",
