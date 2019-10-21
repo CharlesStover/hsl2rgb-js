@@ -49,3 +49,9 @@ Each is a _decimal_ value from 0 to 1.
 ## See also
 
 For example colors and their HSL and RGB equivalents, check out the [X11 color name chart](https://en.wikipedia.org/wiki/X11_color_names#Color_name_chart).
+
+## Sponsor 💗
+
+If you are a fan of this project, you may
+[become a sponsor](https://github.com/sponsors/CharlesStover)
+via GitHub's Sponsors Program.
